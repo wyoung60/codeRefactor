@@ -8,6 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Added semantic element for edit rather than class */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,16 +17,18 @@ header {
   color: #ffffff;
 }
 
+/* Used element type selector due to being only h1 in html */
 h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Eliminated class and element selector, already calls class */
 .seo {
   color: #d9dcd6;
 }
 
-/* needed to update to nav tag */
+/* Updated to nav tag */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -34,7 +37,7 @@ nav {
   font-size: 20px;
 }
 
-/* needed to update to nav tag/this but line doesn't appear to be needed, not sure why */
+/* needed to update to nav/this but line doesn't appear to be needed, not sure why */
 /* .header nav ul {
   list-style-type: none;
 } */
@@ -54,7 +57,7 @@ p {
   font-size: 16px;
 }
 
-/* Element type selector */
+/* Element type selector didn't need class with semantic element */
 figure {
   height: 800px;
   width: 100%;
@@ -64,24 +67,28 @@ figure {
   background-position: center;
 }
 
+/* Added picture dimension to class rather than call it later too */
 .float-left {
   float: left;
   margin-right: 25px;
   max-height: 200px;
 }
 
+/* Same as above */
 .float-right {
   float: right;
   margin-left: 25px;
   max-height: 200px;
 }
 
+/* Semantic element added */
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Same as above */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -121,16 +128,13 @@ h3 {
   color: #ffffff;
 }
 
-/* Can add to the float tags for images */
-/* .main-style img {
-  max-height: 200px;
-} */
-
+/* Semantic element added */
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Semantic element added */
 footer {
   padding: 30px;
   clear: both;
